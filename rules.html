@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<!-- 
+    cardgame.csh.rit.edu
+    
+    Author: Nathan Pedersen  
+-->
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link href="styles/styles.css" rel="stylesheet">
+        
+        <title>The CSH Card Game</title>
+    </head>
+    <body>
+        <header>
+            <div id="heading">
+                <h1>The CSH Card Game</h1>
+            </div>
+            <nav>
+                <span><a href="index.html">Home</a></span>
+                <span><a href="rules.html">Rules</a></span>
+            </nav>
+        </header>
+
+        <main>
+            <section class="overview">
+                <h2>Rules</h2>
+                <h3>Overview:</h3>
+                <p>
+                    CSH: The Card Game is a party game for two to eight people where your goal is to build up the most votes by Election and become the Chairperson. Each person plays as one of the eight CSH Directorships, which introduces new cards into the playing deck. Each turn each player has two actions, which can be used for either drawing and playing. Cards are played into the Archive, which has seven slots. The game ends when the Election Card is drawn and the final round passes. The winner is decided after everyone totals their Archive total. All cards in everyone&#39;s hands get discarded. The person with the highest Archive total wins the game. 
+                </p>
+            </section>
+
+            <section id="rules">
+                <section id="directorship" class="rules-topic">
+                    <h3>Directorships:</h3>
+                    <p>
+                        There are eight CSH Directorships, with ten cards per directorship, and each introduces new cards into the playing deck. These are shuffled in with the Base Deck, which has twenty cards that are always in the playing deck. Each directorship has a distinct playstyle. You can play cards from any directorship. Generally:
+                    </p>
+                    <p>
+                        <ol>
+                            <li>
+                                Evals - Gives the highest Voting Power, but without special abilities.
+                            </li>
+                            <li>
+                                Socials - The voting power is equal to the amount of Social cards in all Archives.
+                            </li>
+                            <li>
+                                PR - Manipulates cards by drawing extra, stealing cards, & making people discard cards.
+                            </li>
+                            <li>
+                                R&D - Gives you advantageous upgrades.
+                            </li>
+                            <li>
+                                OpComm - Tries to get to the Election Card as fast as possible.
+                            </li>
+                            <li>
+                                History - Effects cards in Archives.
+                            </li>
+                            <li>
+                                Financials - Controls the flow of the game and alters people&#39;s turns.
+                            </li>
+                            <li>
+                                Imps - <em><strong>c h a o s</strong></em>
+                            </li>
+                        </ol>
+                    </p>
+                    <p>
+                        The purpose of choosing a directorship is to add different cards to the draw deck, as directorships that are not chosen are not included in the draw deck. The more players are in the game, the bigger the draw deck. Choosing a directorship does not give any other advantage.
+                    </p>
+                </section>
+
+                <section id="setup" class="rules-topic">
+                    <h3>Game Set Up:</h3>
+                    <p>
+                        <ol>
+                            <li>
+                                Have every player choose a unique directorship.
+                            </li>
+                            <li>
+                                Take out the Election Card, then shuffle the Base Deck with the sets of each of the directorships that were chosen. This becomes the draw deck. Discard the directorship decks that were not chosen.
+                            </li>
+                            <li>
+                                Take out the last ten cards from the draw deck. Shuffle the Election Card with these ten cards, and put the cards back at the bottom of the draw deck.
+                            </li>
+                            <li>
+                                Have each player draw five cards. This is your starting hand.
+                            </li>
+                            <li>
+                                Determine the starting player. That player starts the game.
+                            </li>
+                        </ol>
+                    </p>
+                </section>
+    
+                <section id="archive" class="rules-topic">
+                    <h3>The Archive:</h3>
+                    <p>
+                        The Archive is the place where the player plays their cards whose point totals are to be added to their score. The Archive has seven card slots. Only one card may be in a card slot at a time. The only exception is Base Cards. You can put any Directorship Card on top of a Base Card. You cannot play a Base Card on top of a Base Card, unless both cards are Freshmen Cards. You cannot play a Base Card underneath an already placed Directorship Card. Once a player&#39;s Archive is full, they cannot play another card in their Archive without replacing it with one of the existing cards. Discard the card being replaced, and put the new card in its place. If the card being replaced has a card underneath that card, discard the entire stack.
+                    </p>
+                </section>
+    
+                <section id="round" class="rules-topic">
+                    <h3>Game Rounds:</h3>
+                    <p>
+                        Each round, a player has two actions. An action can be used to either draw one card or play one card. They may do these in any order. On the completion of the player&#39;s second action, their turn ends and the player clockwise starts their turn.
+                    </p>
+                </section>
+    
+                <section id="effect" class="rules-topic">
+                    <h3>Card Effects:</h3>
+                    <p>
+                        The effects of cards all act upon the card entering the player&#39;s Archive. The effect goes on a stack where the most recently played card&#39;s effect happens first.
+                    </p>
+                </section>
+    
+                <section id="election" class="rules-topic">
+                    <h3>Election Card:</h3>
+                    <p>
+                        The Election card marks the end of the game. It is placed face down within the last ten cards of the deck. Once the Election card is drawn, the game continues until when the starting player would have started their turn, at which point it ends. If the person who drew the election card is the starting player, the game ends after their turn and does not continue around the table. Once the game ends, the players add the totals of the cards in their Archive, and the player with the greatest sum wins the game, and is elected chair. If there is a tie, both win.
+                    </p>
+                </section>
+    
+                <section id="special" class="rules-topic">
+                    <h3>Special Rules:</h3>
+                    <div>
+                        <h4>Freshmen:</h4>
+                        <p>
+                            Freshmen can be stacked on top of each other, and played together as if they were one card. For example, you can play three Freshmen cards into one slot for one action slot, or add two Freshmen cards to two Freshmen cards already in a slot.
+                        </p>
+                    </div>
+                    <div>
+                        <h4>Cancel:</h4>
+                        <p>
+                            Cancel has to be played in reaction to another card being played. Cancels can be Canceled. Canceled cards are flipped over. Their original voting power does not count and their effect does not take place. Instead they get a voting power of 0. If your Archive is full when you play a Cancel, you still have to replace a card or stack of cards in the Archive with the Cancel.
+                        </p>
+                    </div>
+                    <div>
+                        <h4>Out Of Cards In Hand:</h4>
+                        <p>
+                            If you have no cards in your hand, the next time you use an action to draw, you instead draw three cards, and skip the rest of your turn.
+                        </p>
+                    </div>
+                </section>
+            </section>
+        </main>
+
+        <footer>
+            <p>The CSH Card Game was created during the 2023-24 academic year.</p>
+            <p>
+                This game was made possible thanks to the hard work of Igor Polotai, James Hansplant, Nathan Pedersen, Mel Fangmann, Bora Zihnali, as well as the playtesters Joseph Isaac, Charlotte George, Nathan Russo, Andrew Steven-Hernandez, and everyone else in CSH!
+            </p>
+        </footer>
+    </body>
+</html>

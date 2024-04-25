@@ -1,0 +1,100 @@
+/* 
+    cardgame.csh.rit.edu
+    
+    Author: Nathan Pedersen
+*/
+
+/* 
+    Color Palette:
+    #B0197E (CSH Colors - Purple)
+    #E11C52 (CSH Colors - Pink)
+    #FFFFFF (White)
+    #727272 (Dark Grey, for fonts)
+    # ()
+ */
+
+/*////////// SECTION STYLINGS //////////*/
+body {
+    font-family: Roboto, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica Neue, Arial, sans-serif;
+    font-size: .8125rem;
+    margin: 0;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #444;
+    text-align: left;
+
+    max-width: 700px;
+	min-width: 300px;
+    padding-left: 7.5%;
+    padding-right: 7.5%;
+    margin-left: auto;
+	margin-right: auto;
+    background-color: #fff;
+}
+
+/* HEAD */
+header {
+    background-color: #FFFFFF;
+    text-align: center;
+}
+
+#heading {
+    background-color: #FFFFFF;
+}
+
+nav {
+    font-weight: bold;
+    background-color: #FFFFFF;
+}
+/* make <li>s centered */
+nav ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+/* nav page links */
+nav a:link {
+    text-decoration: none;
+    margin: 2.5%;
+}
+
+/* MAIN */
+main {
+    background-color: #FFFFFF;
+}
+
+footer {
+    text-align: left;
+    line-height: 20%;
+}
+
+
+/*////////// TEXT STYLINGS //////////*/
+.no_top {
+    margin-top: 0;
+}
+.no_bottom {
+    margin-bottom: 0;
+}
+.no_margin {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+/* links */
+a:link {
+    color: #0000ff;
+    text-decoration: none;
+}
+a:visited {
+    color: #5518AB;
+}
+a:hover {
+    color: #0000ff;
+    text-decoration: underline;
+}
+
+
+/*////////// IMAGE STYLINGS //////////*/
+body img {
+    border-radius: 25px;
+}
