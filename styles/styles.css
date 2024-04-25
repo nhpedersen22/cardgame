@@ -80,9 +80,29 @@ footer {
     background-color: #B0197E;
 }
 
+.rules {
+    margin-top: 2rem;
+
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, .5fr));
+    grid-auto-flow: row;
+    gap: 2rem;
+    justify-content: center;
+}
+.rules > .rules-topic {
+    text-align: left;
+
+    border-radius: 25px;
+}
+@media (max-width: 768px) {
+    .rules {
+        grid-template-columns: 1fr; /* Single column per row */
+    }
+}
+
 
 /*////////// TEXT STYLINGS //////////*/
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3 {
     color: #FFFFFF;
 }
 
