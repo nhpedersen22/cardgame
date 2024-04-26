@@ -12,15 +12,16 @@
     #444444 (Dark Grey, for fonts)
     # ()
 
-    Directorships:
-    # (Evals)
-    # (Socials)
-    # (PR)
-    # (R&D)
-    # (OpComm)
-    # (History)
-    # (Financials)
-    # (Imps)
+    Card Types:
+    #879396 (Base)
+    #7596e7 (Evals)
+    #ffed5f (Socials)
+    #b0197e (PR)
+    #72fbfb (R&D)
+    #e11c52 (OpComm)
+    #f76902 (History)
+    #4ecd62 (Financials)
+    #ffffff (Imps)
  */
 
 /*////////// SECTION STYLINGS //////////*/
@@ -140,37 +141,48 @@ a:hover {
     background-color: #444444;
 }
 
-/* uncomment to assign unique colors: */
+/*  uncomment to assign unique colors:
+    Card Types:
+    #879396 (Base)
+    #7596e7 (Evals)
+    #ffed5f (Socials)
+    #b0197e (PR)
+    #72fbfb (R&D)
+    #e11c52 (OpComm)
+    #f76902 (History)
+    #4ecd62 (Financials)
+    #ffffff (Imps)
+ */
 /* .overview h3 {
     background-color: #444444;
 }
 
 #directorship h3 {
-    background-color: #444444;
+    background-color: #7596e7;
 }
 
 #setup h3 {
-    background-color: #444444;
+    background-color: #ffed5f;
 }
 
 #archive h3 {
-    background-color: #444444;
+    background-color: #b0197e;
 }
 
 #round h3 {
-    background-color: #444444;
+    background-color: #72fbfb;
 }
 
 #effect h3 {
-    background-color: #444444;
+    background-color: #72fbfb;
 }
 
 #election h3 {
-    background-color: #444444;
+    background-color: #e11c52;
 }
 
 #special h3 {
-    background-color: #444444;
+    background-color: #4ecd62;
 } */
 
 
