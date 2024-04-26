@@ -65,7 +65,7 @@ nav a:link, nav a:visited {
 
 /* MAIN */
 main {
-    max-width: 700px;
+    max-width: 1300px;
 	min-width: 300px;
     padding-left: 7.5%;
     padding-right: 7.5%;
@@ -81,6 +81,7 @@ footer {
     background-color: #B0197E;
 }
 
+/* grid */
 .rules {
     margin-top: 2rem;
 
@@ -103,8 +104,25 @@ footer {
 
 
 /*////////// TEXT STYLINGS //////////*/
-h1, h2, h3 {
+h1 {
     color: #FFFFFF;
+
+    margin-top: 0;
+}
+
+h2 {
+    color: #444444;
+    font-size: 2em;
+
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+h3 {
+    color: #FFFFFF;
+    /* font-family: 'CPMono_v07 Plain'; */
+
+    margin-top: 0;
 }
 
 .no_top {
@@ -132,13 +150,18 @@ a:hover {
 }
 
 /* rules-topic */
-.rules-topic h3, .overview h2, .overview h3{
+.rules-topic h3, .overview h2, .overview h3 {
     text-transform: uppercase;
     text-align: center;
     padding-top: .5em;
     padding-bottom: .5em;
 
-    background-color: #444444;
+    /* background-color: #444444; */
+}
+
+.rules-topic .content {
+    margin-left: .5em;
+    margin-right: .5em;
 }
 
 /*  uncomment to assign unique colors:
@@ -153,28 +176,28 @@ a:hover {
     #4ecd62 (Financials)
     #ffffff (Imps)
  */
-/* .overview h3 {
+.overview h3 {
     background-color: #444444;
 }
 
 #directorship h3 {
-    background-color: #7596e7;
+    background-color: #5f84e2;
 }
 
 #setup h3 {
-    background-color: #ffed5f;
-}
-
-#archive h3 {
     background-color: #b0197e;
 }
 
+#archive h3 {
+    background-color: #f76902;
+}
+
 #round h3 {
-    background-color: #72fbfb;
+    background-color: #4ecd62;
 }
 
 #effect h3 {
-    background-color: #72fbfb;
+    background-color: #00eded;
 }
 
 #election h3 {
@@ -182,8 +205,8 @@ a:hover {
 }
 
 #special h3 {
-    background-color: #4ecd62;
-} */
+    background-color: #ffe203;
+}
 
 
 /*////////// IMAGE STYLINGS //////////*/
